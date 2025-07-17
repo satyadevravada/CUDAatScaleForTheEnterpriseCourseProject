@@ -1,3 +1,69 @@
+Running canny on barbara_gray.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/barbara_gray.bmp
+Saved to: ./output/barbara_gray_canny.bmp
+Running sobel on barbara_gray.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/barbara_gray.bmp
+Saved to: ./output/barbara_gray_sobel.bmp
+Running gauss on barbara_gray.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/barbara_gray.bmp
+Saved to: ./output/barbara_gray_gauss.bmp
+Running sharpen on barbara_gray.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/barbara_gray.bmp
+Saved to: ./output/barbara_gray_sharpen.bmp
+Running box on barbara_gray.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/barbara_gray.bmp
+Saved to: ./output/barbara_gray_box.bmp
+Running laplacian on barbara_gray.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/barbara_gray.bmp
+Saved to: ./output/barbara_gray_laplacian.bmp
 Running canny on logo.bmp...
 ./nppFilters Starting...
 
