@@ -2,8 +2,6 @@
 
 This project is a CUDA-accelerated image filtering tool built using NVIDIA Performance Primitives (NPP). It supports applying multiple filters to grayscale .bmp or .pgm images efficiently on the GPU.
 
----
-
 ## Features
 
 The available filters include:
