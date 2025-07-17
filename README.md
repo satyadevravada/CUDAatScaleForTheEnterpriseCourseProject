@@ -34,8 +34,6 @@ The available filters include:
   - Applies a second-order derivative operation.
   - Enhances areas of rapid intensity change (edges), useful for fine detail enhancement.
 
----
-
 ## Requirements
 
 * CUDA Toolkit (v11+ recommended)
@@ -43,7 +41,6 @@ The available filters include:
 * g++ compiler with C++17 support
 * Make, Bash
 
----
 
 ## Build Instructions
 
@@ -56,7 +53,6 @@ make
 
 This creates the executable `nppFilters` in the root directory.
 
----
 
 ## Usage
 
@@ -78,7 +74,6 @@ This creates the executable `nppFilters` in the root directory.
 
 If the output is a directory, the file will be named automatically.
 
----
 
 ## Batch Filtering
 
@@ -91,7 +86,6 @@ To apply all filters to all `.bmp` images in the `data/` directory, use the prov
 * Outputs will be saved in the `output/` directory
 * Logs are appended to `output/output.log`
 
----
 
 ## Folder Structure
 
@@ -106,7 +100,6 @@ project/
 └── README.md             # Project documentation
 ```
 
----
 
 ## Notes
 
@@ -114,7 +107,6 @@ project/
 * **Emboss filter** is experimental and may require image resizing or memory tuning.
 * All filters synchronize and reset the CUDA device between operations for safety.
 
----
 
 ## Example Log
 
@@ -125,8 +117,6 @@ Saved to: ./output/wolf_canny.bmp
 ...
 ```
 
-
----
 
 ## 📄 License
 
