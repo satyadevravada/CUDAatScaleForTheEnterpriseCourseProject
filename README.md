@@ -63,7 +63,7 @@ This creates the executable `nppFilters` in the root directory.
 ```
 
 * `input_image`: Path to a `.bmp` or `.pgm` grayscale image
-* `filter_type`: One of `canny`, `sobel`, `gauss`, `sharpen`, `box`, `laplacian`, `emboss`
+* `filter_type`: One of `canny`, `sobel`, `gauss`, `sharpen`, `box`, `laplacian`
 * `output_path`: Output image file or directory
 
 **Example:**
