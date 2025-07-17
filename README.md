@@ -4,11 +4,11 @@ This project is a CUDA-accelerated image filtering tool built using NVIDIA Perfo
 
 ---
 
-## 📌 Features
+## Features
 
 The available filters include:
 
-### 🔍 Edge & Blur Filters
+### Edge & Blur Filters
 
 - **Canny Filter (`canny`)**
   - Detects edges using a multi-stage process: Gaussian smoothing, gradient calculation, non-maximum suppression, and hysteresis thresholding.
@@ -26,7 +26,7 @@ The available filters include:
   - Enhances edges by increasing contrast between adjacent pixels.
   - Makes images appear crisper and more defined.
 
-### 📦 Smoothing & Detail Filters
+### Smoothing & Detail Filters
 
 - **Box Filter (`box`)**
   - Averages pixel values in a 3×3 window.
@@ -37,9 +37,8 @@ The available filters include:
   - Enhances areas of rapid intensity change (edges), useful for fine detail enhancement.
 
 ---
----
 
-## 🧱 Requirements
+## Requirements
 
 * CUDA Toolkit (v11+ recommended)
 * NVIDIA GPU with compute capability ≥ 3.5
@@ -48,7 +47,7 @@ The available filters include:
 
 ---
 
-## 🔧 Build Instructions
+## Build Instructions
 
 1. Clone the repository and enter the project directory.
 2. Run the following command:
@@ -61,7 +60,7 @@ This creates the executable `nppFilters` in the root directory.
 
 ---
 
-## 🚀 Usage
+## Usage
 
 ### Command-Line
 
@@ -70,7 +69,7 @@ This creates the executable `nppFilters` in the root directory.
 ```
 
 * `input_image`: Path to a `.bmp` or `.pgm` grayscale image
-* `filter_type`: One of `canny`, `sobel`, `gauss`, `sharpen`, `box`, `laplacian`
+* `filter_type`: One of `canny`, `sobel`, `gauss`, `sharpen`, `box`, `laplacian`, `emboss`
 * `output_path`: Output image file or directory
 
 **Example:**
@@ -83,7 +82,7 @@ If the output is a directory, the file will be named automatically.
 
 ---
 
-## 🔀 Batch Filtering
+## Batch Filtering
 
 To apply all filters to all `.bmp` images in the `data/` directory, use the provided script:
 
@@ -96,7 +95,7 @@ To apply all filters to all `.bmp` images in the `data/` directory, use the prov
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 ```
 project/
@@ -111,7 +110,7 @@ project/
 
 ---
 
-## ⚠️ Notes
+## Notes
 
 * **Image format**: Input must be 8-bit grayscale `.bmp` or `.pgm`. Color or 16-bit images will fail.
 * **Emboss filter** is experimental and may require image resizing or memory tuning.
@@ -119,7 +118,7 @@ project/
 
 ---
 
-## 📋 Example Log
+## Example Log
 
 ```
 Processing: ./data/wolf.bmp
