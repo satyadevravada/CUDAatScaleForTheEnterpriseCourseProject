@@ -7,7 +7,7 @@ mkdir -p output
 > output/output.log
 
 # Define all filters
-filters=("canny" "sobel" "gauss" "sharpen" "box" "laplacian" "emboss")
+filters=("canny" "sobel" "gauss" "sharpen" "box" "laplacian")
 
 # Loop through all .bmp files in ./data
 for input in ./data/*.bmp; do
