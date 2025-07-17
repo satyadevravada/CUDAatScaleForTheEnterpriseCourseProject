@@ -64,16 +64,6 @@ GPU Device 0: "Ampere" with compute capability 8.6
 
 Processing: ./data/logo.bmp
 Saved to: ./output/logo_laplacian.bmp
-Running emboss on logo.bmp...
-./nppFilters Starting...
-
-NPP Library Version: 11.3.3
-CUDA Driver Version:  12.6
-CUDA Runtime Version: 11.3
-  Device 0: <          Ampere >, Compute SM 8.6 detected
-GPU Device 0: "Ampere" with compute capability 8.6
-
-Unsupported filter: emboss
 Running canny on wolf.bmp...
 ./nppFilters Starting...
 
@@ -140,13 +130,3 @@ GPU Device 0: "Ampere" with compute capability 8.6
 
 Processing: ./data/wolf.bmp
 Saved to: ./output/wolf_laplacian.bmp
-Running emboss on wolf.bmp...
-./nppFilters Starting...
-
-NPP Library Version: 11.3.3
-CUDA Driver Version:  12.6
-CUDA Runtime Version: 11.3
-  Device 0: <          Ampere >, Compute SM 8.6 detected
-GPU Device 0: "Ampere" with compute capability 8.6
-
-Unsupported filter: emboss
