@@ -1,0 +1,152 @@
+Running canny on logo.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/logo.bmp
+Saved to: ./output/logo_canny.bmp
+Running sobel on logo.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/logo.bmp
+Saved to: ./output/logo_sobel.bmp
+Running gauss on logo.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/logo.bmp
+Saved to: ./output/logo_gauss.bmp
+Running sharpen on logo.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/logo.bmp
+Saved to: ./output/logo_sharpen.bmp
+Running box on logo.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/logo.bmp
+Saved to: ./output/logo_box.bmp
+Running laplacian on logo.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/logo.bmp
+Saved to: ./output/logo_laplacian.bmp
+Running emboss on logo.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Unsupported filter: emboss
+Running canny on wolf.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/wolf.bmp
+Saved to: ./output/wolf_canny.bmp
+Running sobel on wolf.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/wolf.bmp
+Saved to: ./output/wolf_sobel.bmp
+Running gauss on wolf.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/wolf.bmp
+Saved to: ./output/wolf_gauss.bmp
+Running sharpen on wolf.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/wolf.bmp
+Saved to: ./output/wolf_sharpen.bmp
+Running box on wolf.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/wolf.bmp
+Saved to: ./output/wolf_box.bmp
+Running laplacian on wolf.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Processing: ./data/wolf.bmp
+Saved to: ./output/wolf_laplacian.bmp
+Running emboss on wolf.bmp...
+./nppFilters Starting...
+
+NPP Library Version: 11.3.3
+CUDA Driver Version:  12.6
+CUDA Runtime Version: 11.3
+  Device 0: <          Ampere >, Compute SM 8.6 detected
+GPU Device 0: "Ampere" with compute capability 8.6
+
+Unsupported filter: emboss
